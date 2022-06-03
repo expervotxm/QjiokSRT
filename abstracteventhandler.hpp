@@ -6,9 +6,7 @@
 namespace events::handlers 
 {
 	template<class ...TParams>
-	class AbstractEventHandler
-	{
-		using MyType = AbstractEventHandler<TParams...>;
+	class AbstractEventHandlerms...>;
 
 	public:
 
